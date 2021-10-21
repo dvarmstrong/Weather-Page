@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoJo Weather</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <h1 class="nav-title">DoJoWeather</h1>
+        <ul class="nav-links">
+            <li id="citybtn"><a href="#" class="white" onclick="alert('loading weather')">Burbank</a></li>
+            <li id="citybtn"><a href="#" class="white" onclick="alert('loading weather')">Chicago</a></li>
+            <li id="citybtn"><a href="#" class="white" onclick="alert('loading weather')">Dallas</a></li>
+        </ul>
+    </div>
+    <div class="header">
+        <h1 class="state-title">San Jose</h1>
+        <ul class="tempselect">
+            <li>Show Temperatures in</li>
+            <li>
+                <select name="temperatures"><id="temp"></id>
+                <option value="celsius">&#8451</option>
+                <option value="farenheit">&#8457;</option>
+                </select>
+            </li>
+        </ul>
+    </div>
+<hr>
+    <div class="WeatherReport">
+        <div class="row">
+            <div class="weather-col-1">
+                <h3 class="weatherBox">Today</h3>
+                <img class="WeatherIcons" src="images/some_rain.png" alt="rain">
+                <h3 class="some">some rain</h3>
+                <div class="degrees">
+                    <span class="red">74&#8451;</span>
+                    <span class="blue">65&#8457;</span>
+                </div>
+            </div>
+            <div class="weather-col-2">
+                <h3 class="weatherBox">Tomorrow</h3>
+                <img class="WeatherIcons" src="images/some_sun.png" alt="sun">
+                <h3 class="some">some sun</h3>
+                <div class="degrees">
+                    <span class="red">80&#8451;</span>
+                    <span class="blue">66&#8457;</span>
+                </div>
+            </div>
+            <div class="weather-col-3">
+                <h3 class="weatherBox">Friday</h3>
+                <img class="WeatherIcons" src="images/some_clouds.png" alt="clouds">
+                <h3 class="some">some clouds</h3>
+                <div class="degrees">
+                    <span class="red">69&#8451;</span>
+                    <span class="blue">61&#8457;</span>
+                </div>
+            </div>
+            <div class="weather-col-4">
+                <h3 class="weatherBox">Saturday</h3>
+                <img class="WeatherIcons" src="images/some_sun.png" alt="sun">
+                <h3 class="some">some sun</h3>
+                <div class="degrees">
+                    <span class="red">78&#8451;</span>
+                    <span class="blue">70&#8457;</span>
+                </div>
+            </div>
+        </div> 
+    </div>  
+    <div class = cookie-footer  onclick="hide(this)">
+        <img class="cookie" src="images/cookie.png">
+        <div class="Cookie-title">
+            Stop! Cookie Time
+        </div>
+        <div class="readCookie">
+            <p>We use cookies (sadly not the edible ones) to personalize content and ads,<br>
+            to provide social media features and to analyze our traffic.<a href="#">Read More...</a></p>
+        </div>
+        <div class="btn">
+            <button class="Accept" onclick="hide(this)">I Accept</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+

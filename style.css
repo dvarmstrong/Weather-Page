@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: #b3d9ff ;
+    width: 1300px;
+    margin:0px auto;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-title {
+    margin: 120px;
+    color:antiquewhite;
+}
+
+.nav-links {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.header {
+    width: 1000px;
+    margin: 0px auto;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tempselect  {
+    width: 20%;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+hr {
+    margin: 0px 10px 0px 10px;
+}
+
+.WeatherReport {
+    margin: 10px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+.row {
+    display: flex;  
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.weather-col-1 {
+    flex: 1;
+    border: solid black;
+    
+    
+
+    
+}
+.weather-col-2 {
+    flex: 2;
+    border: solid black;
+}
+.weather-col-3 {
+    flex: 3;
+    border: solid black;
+}
+.weather-col-4 {
+    flex: 4;
+    border: solid black;
+}
+
+.WeatherIcons {
+    height: 150px;
+    
+}
+
+.weatherBox {
+    display: flex;
+    justify-content: center;
+}
+
+.some {
+    display: flex;
+    justify-content: center;
+}
+
+.degrees {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.white {
+    color: antiquewhite;
+}
+
+.cookie-footer {
+    border: solid black;
+    margin: 10px, 10px, 30px, 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+}
+
+
